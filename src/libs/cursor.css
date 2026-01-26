@@ -1,0 +1,33 @@
+.custom-cursor {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    width: 65px;
+    margin-left: -32.5px;
+    margin-top: -32.5px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 250ms ease-in-out, opacity 250ms ease-in-out;
+    scale: 0.3;
+    z-index: 10;
+}
+
+.custom-cursor--link {
+    background-color: transparent;
+    border: 1px solid white;
+    mix-blend-mode: normal;
+    transform: translate(-50%, -50%) scale(2.5);
+}
+
+.custom-cursor--init {
+    opacity: 1;
+}
+
+.custom-cursor.hidden {
+    opacity: 0 !important;
+    transition: opacity 0.05s linear;
+}
