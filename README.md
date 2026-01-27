@@ -20,6 +20,8 @@
 
 ## About The Project
 
+### Project isn't live yet. Stay updated on here!
+
 **Wallpaper Generator** is a web-based tool designed to turn music into visual art. It allows users to search for song lyrics and instantly create aesthetic wallpapers for mobile or desktop devices.
 
 ### Impressions
