@@ -1,6 +1,7 @@
 const cursor = document.querySelector(".custom-cursor");
 const links = document.querySelectorAll("a");
 const navbar = document.querySelector(".glass-navbar");
+const footer = document.querySelector("footer");
 let isCursorInited = false;
 
 const initCursor = () => {
@@ -43,5 +44,15 @@ if (navbar) {
 
     navbar.addEventListener("mouseleave", () => {
         cursor.classList.remove("hidden");
+    });
+}
+
+if (footer) {
+    footer.addEventListener("mouseenter", () => {
+        cursor.classList.add('hidden');
+    });
+
+    footer.addEventListener("mouseleave", () => {
+        cursor.classList.remove('hidden');
     });
 }
