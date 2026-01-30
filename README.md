@@ -26,6 +26,8 @@
 
 ### Impressions
 
+This website was created for an school projects. See legals on [Wallpapergenerator legals](https://wallpapergenerator.lxrin.ch/legals.html)
+
 **Coming Soon!**
 
 <div align="center">
